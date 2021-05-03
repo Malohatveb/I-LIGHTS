@@ -1,0 +1,110 @@
+.service{
+    height: 583px;
+    .container{
+        .service1{
+            margin-top: 69px;
+            .serh5{
+                display: flex;
+                font-family: 'm-eb';
+                font-size: 30px;
+                line-height: 40px;
+                color: #535353;
+                &::before{
+                    content: '|';
+                    color:#F3A800;
+                    width: 5px;
+                    height: 25px;
+                    margin-right: 15px;
+                }
+            }
+            .sermenu{
+                display: flex;
+                .serimg{
+                    margin-top: 50px;
+                    margin-left: 40px;
+                    margin-right: 55px;
+                }
+                .sertext{
+                    padding-top: 61px;
+                    a{
+                        text-decoration: none;
+                        font-family: 'm-b';
+                        font-size: 16px;
+                        color: #535353;
+                        
+                    }
+                    .ichitext{
+                        p{
+                            padding-top: 20px;
+                            width: 1014px;
+                            height: 143px;
+                            font-size: 14px;
+                            color: #535353;
+                            font-family: 'm-r';
+                            display: none;
+                        }
+                    }
+                }
+                .btnser1{
+                    button{
+                        border: 0;
+                        background-color: #fff;
+                        img{
+                            margin-left: 460px;
+                            margin-top: 50px;
+                            width: 18px;
+                            height: 40px;
+                        }
+                    }
+                }
+                .btnser2{
+                    margin-left: 460px;
+                    margin-top: 50px;
+                    button{
+                        border: 0;
+                        background-color: #fff;
+                        width: 18px;
+                        height: 40px;
+                    }
+                }
+                .btnser3{
+                    margin-left: 460px;
+                    margin-top: 50px;
+                    button{
+                        border: 0;
+                        background-color: #fff;
+                        width: 18px;
+                        height: 40px;
+                    }
+                }
+                .btnser4{
+                    margin-left: 460px;
+                    margin-top: 50px;
+                    button{
+                        border: 0;
+                        background-color: #fff;
+                        width: 18px;
+                        height: 40px;
+                    }
+                }
+                .btnser5{
+                    margin-left: 460px;
+                    margin-top: 50px;
+                    button{
+                        border: 0;
+                        background-color: #fff;
+                        width: 18px;
+                        height: 40px;
+                    }
+                }
+            }
+            hr{
+                width: 1149px;
+                margin-left: 140px;
+                height: 0;
+                border: 1px solid #E5E5E5;
+                
+            }
+        }
+    }
+}

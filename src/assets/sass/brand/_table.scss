@@ -1,0 +1,53 @@
+.table{
+    .container{
+        table{
+            border-collapse: collapse;
+            tr{
+                th{
+                    font-size: 14px;
+                    font-family: 'm-m';
+                    color:$grey;
+                    background-color: #F9F9F9;
+                    height:71px;
+                }                   
+            }           
+            tr{   
+                td{
+                    font-size: 14px;
+                    font-family: 'm-r';
+                    color:#8C8C8C;
+                    border-bottom: 1px solid #EDEDED;
+                    padding-bottom: 8px;
+                    padding-top: 10px;
+                    button{
+                        background-color: $grey;
+                        width:22px;
+                        height:22px;
+                        color:white;
+                        font-size: 16px;
+                        font-family: 'm-eb';
+                        border:0;
+                        border-radius: 50%;
+                        margin-left: 57px;
+                        &:hover{
+                            color:$grey;
+                            background-color: $yellow;
+                        }
+                    }
+                }
+                &:hover{
+                    background-color: #fff;
+                }
+            }               
+        }
+        .a{
+            margin-top: 11px;
+            margin-bottom: 14px;
+            a{
+            color:$yellow;
+            font-size: 14px;
+            font-family: 'm-m';
+            }
+        }
+    }
+}

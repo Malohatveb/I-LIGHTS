@@ -1,0 +1,79 @@
+.header{
+    background-color: #0C0537;
+    height: 70px;
+    .container{
+        background-color: #0C0537;
+        height: 70px;
+        .menu{
+            display: flex;
+            color: #fff;
+            .logo{
+                margin-bottom: 11px;
+            }
+            .menu2 {
+                margin-top: 26px;
+                list-style-type: none;
+                display: flex;
+                .link{
+                    font-family: 'm-m';
+                    text-decoration: none;
+                    margin-left: 35px;
+                    font-size: 14px;
+                    color: #fff;
+                    &:hover{
+                        color: #FFC94F;
+                        font-family: 'm-b';
+                    }
+                }
+            }
+            .btn1{
+                margin-top: 24px;
+                margin-left: 9px;
+                button{
+                    border-radius: 10px;
+                    width: 22px;
+                    height: 22px;
+                    background-color: #FFC94F;
+                    color: #535353;
+                    border: 0;
+                }
+            }
+            .menu2{
+                .rasm1{
+                    width: 17px;
+                    height: 17px;
+                    margin-left: 40px;
+                }
+                .text1{
+                    font-size: 14px;
+                    width: 116px;
+                    font-family: 'm-m';
+                    margin-left: 8px;
+                }
+            }
+            .btnnumber{
+                
+                button{
+                    width: 214px;
+                    display: flex;
+                    height: 44px;
+                    margin-top: 13px;
+                    margin-left: 13px;
+                    color: #fff;
+                    background: unset;
+                    border: 1px solid #FFFFFF;
+                    padding: 14px 25px;
+                    img{
+                        margin-right: 12px;
+                    }
+                    .text2{
+                        font-family: 'm-b';
+                        font-size: 14px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+

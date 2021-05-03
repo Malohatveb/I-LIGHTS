@@ -1,0 +1,33 @@
+.adivace{
+    .container{
+        .add{
+            display: flex;
+            margin-top: 50px;
+            .left{
+                p{
+                    font-family: 'm-eb';
+                    font-size: 24px;
+                    color: #535353;
+                }
+                button{
+                    width: 302px;
+                    height: 53px;
+                    background-color: $blue;
+                    border:0;
+                    color: #fff;
+                    font-family: 'm-eb';
+                    font-size: 18px;
+                    margin-top: 21px;
+                    margin-right: 21px;
+                }
+                .t{
+                    font-family: 'm-b';
+                    font-size: 14px;
+                    color: $grey;
+                    padding-top: 19px;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}

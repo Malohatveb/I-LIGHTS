@@ -1,0 +1,57 @@
+.advice{
+    .container{
+        width: 1344px;
+        height: 188px;
+        margin-top: 34px;
+        .advicemenu{
+            display: flex;
+            .adviceleft{
+                .addtext1{
+                    margin-left: 60px;
+                    font-family: 'm-eb';
+                    font-size: 20px;
+                    color: #505050;
+                    position: absolute;
+                    margin-top: -75px;
+                }
+                .adimg{
+                    color: $grey;
+                }
+            }
+            .addcenter{
+                margin-left: 257px;
+                .adda{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 895px;
+                    border-bottom: 1px solid #EFEFEF;
+                    margin-top: 5px;
+                    .p{
+                        p{
+                            color: #505050;
+                            font-family: 'm-m';
+                            font-size: 14px;
+                        }
+                    }
+                    .a{
+                        display: flex;
+                        a{
+                            color: #505050;
+                            font-family: 'm-b';
+                            font-size: 14px;
+                            text-decoration: none;
+                            margin-left: 19px;
+                            &:hover{
+                                color: #F3A800;
+                            }
+
+                        }
+                        .swg{
+                            margin-left: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

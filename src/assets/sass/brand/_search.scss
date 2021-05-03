@@ -1,0 +1,62 @@
+.search{
+    .container{
+        .menu{
+            margin-top: 50px;
+            display: flex;
+            button{
+                font-family: 'm-sb';
+                font-size: 16px;
+                color: #535353;
+                text-decoration: none;
+                margin-right: 64px;
+                border: 0; 
+                background-color: #E5E5E5;
+                width: 287px;
+                height: 40px;
+                &:hover{
+                    background-color: #3D4F64;
+                    height: 55px;
+                    color: #fff;
+                }
+            }
+            .btn{
+                button{
+                    font-family: 'm-sb';
+                    font-size: 16px;
+                    color: #535353;
+                    text-decoration: none;
+                    margin-right: 64px;
+                    border: 0; 
+                    background-color: #E5E5E5;
+                    width: 88px;
+                    height: 40px;
+                    &:hover{
+                        background-color: #3D4F64;
+                        width: 131px;
+                        height: 55px;
+                        color: #fff;
+                    }
+                }
+            }
+            border-bottom: 1px solid #EDEDED;
+        }
+        .bigtitle{
+            margin-top: 22px;
+            font-family: 'm-l';
+            font-size: 14px;
+            color: #000000;
+        }
+        p{
+            font-family: 'm-b';
+            font-size: 14px;
+            color: #535353;
+            margin-top: 30px;
+        }
+        .text{
+            font-family: 'm-l';
+            font-size: 14px;
+            color: #000000;
+            margin-top: 10px;
+        }
+    }
+}

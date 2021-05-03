@@ -1,0 +1,59 @@
+.new{
+    .container{
+        .bigtitle{
+            font-family: 'm-b';
+            font-size: 24px;
+            color: $grey;
+            margin-top: 38px;
+        }
+        .btns{
+            display: flex;
+            .btn{
+                button{
+                    font-family: 'm-b';
+                    color: $grey;
+                    font-size: 16px;
+                    text-align: center;
+                    border: 0;
+                    background-color: $body;
+                    line-height: 40px;
+                    margin-top: 41px;
+                    width: 131px;
+                    height: 53px;
+                    &:hover{
+                        background-color: $blue;
+                        border-radius: 2px;
+                        color: #fff;
+                    }
+                }
+            }
+            .btn1{
+                button{
+                    font-family: 'm-b';
+                    color: $grey;
+                    font-size: 16px;
+                    text-align: center;
+                    border: 0;
+                    background-color: $body;
+                    line-height: 40px;
+                    margin-top: 41px;
+                    margin-left: 64px;
+                    width: 260px;
+                    height: 53px;
+                    &:hover{
+                        background-color: $blue;
+                        border-radius: 2px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        border-bottom: 1px solid #EDEDED;
+        .bigtext{
+            font-family: 'm-l';
+            font-size: 14px;
+            color: $grey;
+            margin-top: 20px;
+        }
+    }
+}

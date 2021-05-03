@@ -1,0 +1,88 @@
+body,*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E5E5E5;
+}
+.container{
+max-width: 1284px;
+margin: auto;
+background-color: #E5E5E5;
+}
+@font-face {
+    font-family: 'm-b';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'm-m';
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'm-eb';
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'm-r';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'm-sb';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'm-l';
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+ul{
+    list-style-type: none
+}
+@mixin bg() {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+$black: #000;
+$blue:#3D4F64;
+$darkblue:#0C0537;
+$grey:#535353;
+$yellow:#FFC94F;
+$body:#E5E5E5;
+$grey2:#DDE0E3;
+
+@import 'splide.min.scss';
+@import 'blocks/header';
+@import 'blocks/slider';
+@import 'blocks/catolog';
+@import 'blocks/service';
+@import 'blocks/news';
+@import 'blocks/advice';
+@import 'blocks/advice2';
+@import 'blocks/footer';
+
+
+@import 'about/menu';
+@import 'about/new';
+@import 'about/adivace';
+
+@import 'service/menu';
+@import 'service/adivace';
+
+@import 'cotolog/cotolog';
+
+@import 'basket/del';
+@import 'basket/middle';
+@import 'basket/linch';
+@import 'basket/social';
+
+
+@import 'brand/top';
+@import 'brand/search';
+@import 'brand/table';
+
+
+
+@import 'payment/top';
+@import 'payment/center';
+@import 'payment/heel'

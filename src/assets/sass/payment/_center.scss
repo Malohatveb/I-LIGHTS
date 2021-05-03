@@ -1,0 +1,20 @@
+.bigm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    .middle{
+        .text{
+            font-family: 'm-b';
+            font-size: 16px;
+            color: #535353;
+            width: 695px;
+        }
+        .bigtext{
+            margin-top: 8px;
+            font-family: 'm-l';
+            font-size: 14px;
+            color: #535353;
+            width: 695px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.social{
+    .container{
+        .next{
+            display: flex;
+            margin-left: 570px;
+            margin-top: 17px;
+            .btn{
+                button{
+                    width: 313px;
+                    height: 44px;
+                    background-color: #fff;
+                    color: #535353;
+                    font-family: 'm-b';
+                    border: 0;
+                    border: 1px solid #E5E5E5;
+                    &:hover{
+                        background-color: #F3A800;
+                    }
+                }
+            }
+        }
+    }
+}

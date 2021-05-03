@@ -1,0 +1,26 @@
+.linch{
+    .container{
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            .left{
+                p{
+                    font-family: 'm-b';
+                    font-size: 14px;
+                    color: #535353;
+                }
+            }
+            .bigr{
+                display: flex;
+                .right1{
+                    display: flex;
+                    font-family: 'm-b';
+                    font-size: 14px;
+                    margin-right: 260px;
+                    color: #535353;
+                }
+            }
+        }
+    }
+}

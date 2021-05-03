@@ -1,0 +1,202 @@
+extends ../blocks/temp.pug
+
+block content 
+    .top 
+        .big 
+            .container
+                    ul.menu 
+                        li.item: a(href="index.html").link Главная
+                        li.item: a(href="#").link Каталог  -  Трековые светильники - EVO L
+        .container 
+            .slider 
+                .top 
+                    .left 
+                        .slider.splide#secondary-slider 
+                            .splide__track
+                                ul.splide__list
+                                    li.page_img.splide__slide: img(src="assets/img/lamp1.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp2.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp3.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp4.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp5.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp5.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp5.png", alt="")
+                        .slider2.splide#primary-slider 
+                            .splide__track
+                                ul.splide__list
+                                    li.page_img.splide__slide: img(src="assets/img/lamp1.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp2.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp3.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp4.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp5.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp5.png", alt="")
+                                    li.page_img.splide__slide: img(src="assets/img/lamp5.png", alt="")
+                    .right 
+                        .text Трековый светильник EVO L
+                        .minibtn 
+                            .btn1 
+                                p Мощность
+                                .top 
+                                    button 15
+                                    button 22
+                                    button 28
+                                    button 42
+                                    button 43
+                            .bottom 
+                                button 65
+                                button 66
+                                button 86
+                                button 84
+                                button 130
+                            .btn2 
+                                p Цвет корпуса
+                                .top 
+                                    button белый
+                                    button черный
+                                    button серый
+                            .btn3 
+                                p Угол рассеивания
+                                .but 
+                                    button 85
+                            .btn2
+                                p Цветовая температура
+                                .top 
+                                    button 3000
+                                    button 4000
+                                    button 5000
+                            .btn4
+                                p CRI/Ra
+                                .but 
+                                    button 80+
+                            .add 
+                                button Посмотреть  выбранные модификации
+    .search 
+        .container 
+            .menu 
+                .btn 
+                    button Описание
+                button Технические характеристики 
+                button Конструктивные характеристики 
+                button Материалы для скачивания
+            .bigtitle Потолочный светильник LINE A подвесного или накладного монтажа предназначен для организации основного освещения помещений. Различные длины, мощности,<br> варианты рассеивателей и возможности подключения к различным системам управления освещением делают светильники серии LINE A всесторонне продуманным<br> решением для помещений любой конфигурации и функциональных назначений. Алюминиевый корпус окрашивается высококачественным матовым или глянцевым <br>порошковым покрытием черного, белого, либо любого цвета по шкале RAL.
+            p Особенности:
+                .text 
+                    |Различные варианты рассеивателей: матовый / микропризматический / прозрачный
+                .text 
+                    |Источники питания с гальвонической развязкой установлены внутри корпуса светильника;
+
+                .text 
+                    |Возможность соединения последовательно для  получения сплошных линий засветки длинной до 30м.
+                .text 
+                    |Возможность декорирование под дерево и другие материалы, либо отделка деревом благородных пород
+            p Области применения:
+                .text 
+                    |Торговое освещение
+                .text 
+                    |Офисное освещение
+
+                .text 
+                    |Обьекты бьюти индустрии
+                .text 
+                    |HoReCa - отели, рестораны, кафе
+                .text 
+                    |Проходные зоны любых общественных пространств
+    .table 
+        .container 
+            table 
+                thead 
+                    tr 
+                        th Наименование
+                        th Мощность
+                        th Цвет корпуса
+                        th ВxДxШ
+                        th Световой поток LED[лкм]
+                        th Угол рассеивания
+                        th Эфективность LW/W
+                        th Цветовая температура
+                        th CRI/Ra
+                        th Управление светом
+                        th Цена
+                        th Добавить в подборку
+                tbody 
+                    tr 
+                        td LINE A 50-14W-830-WH
+                        td 14
+                        td Белый
+                        td 20х15х10
+                        td 1672
+                        td 119.43
+                        td 119.43
+                        td 3000
+                        td 80+
+                        td no
+                        td 2700
+                        td 
+                            button + 
+                    tr 
+                        td LLINE A 50-14W-830-WH
+                        td 14
+                        td Черный
+                        td 1760
+                        td 125.71
+                        td 125.71
+                        td 119.43
+                        td 3000
+                        td 80+
+                        td no
+                        td 2700
+                        td 
+                            button + 
+                    tr 
+                        td LLINE A 50-14W-830-WH
+                        td 14
+                        td Черный
+                        td 1760
+                        td 125.71
+                        td 125.71
+                        td 119.43
+                        td 3000
+                        td 80+
+                        td no
+                        td 2700
+                        td 
+                            button + 
+                    tr 
+                        td LLINE A 50-14W-830-WH
+                        td 14
+                        td Черный
+                        td 1760
+                        td 125.71
+                        td 125.71
+                        td 119.43
+                        td 3000
+                        td 80+
+                        td no
+                        td 2700
+                        td 
+                            button + 
+                    tr 
+                        td LLINE A 50-14W-830-WH
+                        td 14
+                        td Черный
+                        td 1760
+                        td 125.71
+                        td 125.71
+                        td 119.43
+                        td 3000
+                        td 80+
+                        td no
+                        td 2700
+                        td 
+                            button + 
+            .a 
+                a(href="#") Все модификации
+
+
+
+
+
+
+
+
+

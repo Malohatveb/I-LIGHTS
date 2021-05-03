@@ -1,0 +1,67 @@
+.slider{
+    height: 547px;
+    .container{
+        .sliderr{
+            display: flex;
+            position: relative;
+            .slider_title{
+                padding-top: 109px;
+                padding-right: 80px;
+                .slider_top{
+                    .rightext1{
+                        display: flex;
+                        span{
+                            font-size: 36px;
+                            font-family: 'm-eb';
+                            color: #FFC94F;
+                            margin-right: 10px;
+                        }
+                        h5{
+                            font-size: 36px;
+                            color: #535353;
+                            font-family: 'm-eb';
+                        }
+                    }
+                    .bottom{
+                        font-size: 36px;
+                        color: #535353;
+                        font-family: 'm-eb';
+                    }
+                }
+                .right2 {
+                    p{
+                        font-family: 'm-r';
+                        font-size: 14px;
+                        padding-top: 8px;
+                        color: #535353;
+                    }
+                }
+                .rightbtn{
+                    margin-top: 21px;
+                    display: flex;
+                    justify-content: space-between;
+                    button{
+                        width: 197px;
+                        height: 44px;
+                        background: #FFC94F;
+                        border-radius: 2px;
+                        color: #535353;
+                        border: 0;
+                        font-family: 'm-b';
+                    }
+                }
+            }
+            .sliderimg{
+                .slimg{
+                    position: absolute;
+                    .sliderimg{
+                        img{
+                            width: 970px;
+                            height: 448px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
